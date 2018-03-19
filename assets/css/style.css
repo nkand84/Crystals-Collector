@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+body,.jumbotron{
+  background-image: url("../imgs/gradient.jpg");
+}
+h1,h3{
+    
+    color:  orangered;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color:yellowgreen ;
+  
+}
+h1{
+    font-size: 80px;
+}
+img{
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+}
