@@ -21,26 +21,26 @@ $(document).ready(function () {
     var gem = $(this).val();
     if (gem == "ruby") {
       scoreSave += rubyPick;
-      $("#score").text(scoreSave);
+      // $("#score").text(scoreSave);
     }
     if (gem == "emerald") {
       scoreSave += emeraldPick;
-      $("#score").text(scoreSave);
+      
     }
     if (gem == "sapphire") {
       scoreSave += sapphirePick;
-      $("#score").text(scoreSave);
+      
     }
     if (gem == "topaz") {
       scoreSave += topazPick;
-      $("#score").text(scoreSave);
     }
+    $("#score").text(scoreSave);
     checkScore();
   });
 
 //------- check score with computer number-------------------
   function checkScore() {
-    
+    console.log(scoreSave);
     if (scoreSave == computerPick) {
       win++;
       $("#wins").text(win);
