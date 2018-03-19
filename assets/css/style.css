@@ -1,8 +1,14 @@
 *{
     box-sizing: border-box;
 }
+html{
+    height: 100%;
+}
 body,.jumbotron{
   background-image: url("../imgs/gradient.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 h1,h3{
     
