@@ -15,4 +15,4 @@ Here's how the app works:
 - When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values.
 - The app should show the number of games the player wins and loses. 
 
-![alt text](nkand84/screenshots/Crystals-Collector.png "Crystals Collector Game")
+![alt text](nkand84/screenshots/images/Crystals-Collector.png "Crystals Collector Game")
